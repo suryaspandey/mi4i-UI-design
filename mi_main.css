@@ -1,0 +1,302 @@
+body{
+  height: 550px;
+  width: 290px;
+  display: flex;
+  border-style: solid;
+
+
+  /*border-color: #cdb79e;*/
+  border-radius: 15px;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+
+  flex-direction: column;
+
+
+
+}
+
+
+
+/*div{
+height: 1000px;}*/
+
+.top{
+  background-color: black;
+
+  flex: 4;
+
+}
+
+
+.logo{
+
+  margin: inheritpx;
+  position: relative;
+
+
+
+}
+
+
+.rectangle {
+  position: static;
+  margin: auto;
+  display: flex;
+   height: 10px;
+  width: 100px;
+  background-color: #241E1E;
+  border-radius: 20px;
+
+}
+
+
+
+.small_rect {
+  margin: auto;
+  display: flex;
+   height: 5px;
+  width: 60px;
+  background-color: #000000;
+  border-radius: 10px;
+
+}
+
+.circle{
+   height: 11px;
+  width: 11px;
+  background-color: #556;
+  border-radius: 50%;
+  float: right 10px;
+
+}
+
+.light{
+  height: 7px;
+  width: 7px;
+  background-color: #570;
+  border-radius: 50%;
+  margin-left: 70%
+}
+
+
+.one{
+   background-image: url("https://www.xyztimes.com/wp-content/uploads/2016/10/mi5s-wallpaper-002.jpg");
+
+ /* background-color: #808080;
+  position: fixed;
+  width: 300px;
+    height: 10px;
+  http://www.mulierchile.com/android-home-screen-wallpaper/android-home-screen-wallpaper-016.jpg
+
+
+
+   http://samsung-wallpapers.com/uploads/allimg/131206/1-131206204540.jpg
+  */
+   /*flex: 2;*/
+   flex: 50;
+  height: 450px;
+  background-size: auto;
+   background-repeat: no-repeat;
+  background-size: 100% 100%
+
+
+}
+
+.two{
+ /* background-color: #9AC;*/
+
+
+  /* background-image: url("  http://www.mulierchile.com/android-home-screen-wallpaper/android-home-screen-wallpaper-016.jpg");
+
+
+ /* position: static;
+   width: 300px;
+    ;*/
+
+  /* flex: 50;
+  height: 450px;*/
+
+
+
+
+}
+
+.three{
+  background-color: #000000;
+ /* position: fixed;
+  width: 300px;
+  height: 50px;*/
+   flex: 4;
+
+}
+
+.time{
+/*  position: fixed;
+  height: 200px;;*/
+  color: #FFFFFF;
+  font-size: x-large;
+  font-style: italic;
+
+}
+
+.galary{
+/*  position: fixed;
+  height: 200px;;*/
+  margin: 5px;
+  margin-top: auto;
+/* margin-right: 20px;*/
+  float: left;
+
+}
+
+
+/*.battery{
+
+  margin: 5px;
+  margin-top: auto;
+ margin-right: 10px;
+ float: right; */
+
+
+/*  position: fixed;
+  height: 200px;;
+
+    display: block;
+   margin-top: auto;
+   margin-left: 350%;
+    margin-right: 12;
+  float: left;
+  opacity: 0.5;
+}*/
+
+
+
+
+
+.wifi{
+
+  margin: 10px;
+  margin-top: 3.3px;
+ margin-left: 120px;
+ float: right;
+}
+
+.alarm{
+
+  margin: 10;
+  margin-top: 3.3px;
+ margin-left: 50px;
+ float:right;
+}
+
+.network{
+
+  margin: 2px;
+  margin-top: auto;
+ margin-left: 10px;
+ float: right;
+}
+
+
+.menu_button{
+  margin: 15px;
+  margin-bottom: -10%;
+}
+
+
+.home{
+   margin: 15px;
+  margin-bottom: -10%;
+  margin-left: 50%;
+ /* margin: 10px;
+
+    margin-top: 16;
+   margin-left: 50%;
+    margin-right: inherit;*/
+}
+
+.back{
+   margin: 12px;
+  margin-bottom: -19%;
+  margin-left: 93%;
+ /*  margin: 10px;
+
+    margin-top: 1px;
+  margin-bottom: -10px;
+   margin-left: 90%;
+    margin-right: 10px;*/
+
+}
+
+
+
+.battery1{
+  margin-top: 3px;
+  border-style: solid;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-color: white;
+  border-top-color: white;
+  border-right-color: white;
+  border-left-color: white;
+
+  background-color: #FFFFFF;
+
+  border-radius: 3px 0px 0px 3px;
+
+  height: 9px;
+  width: 18px;
+
+  float: right ;
+
+
+}
+
+.line{
+  width: 9.9px;
+height: 0.1px;
+border-top: 8.3px solid black;
+position: absolute;
+opacity: 0.9;
+}
+
+.up{
+   margin: 360px;
+  margin-bottom: 10%;
+  margin-left: 50%;
+  opacity: 0.3;
+
+  /*margin-top: 330px;
+  margin-left: 140px;
+  opacity: 0.3;*/
+
+}
+
+.camera{
+
+   /*margin: 360px;
+  margin-bottom: 10%;
+  margin-left: 100%;
+  opacity: 0.3;*/
+
+
+  float: right;
+  opacity: 0.5;
+  margin-top: -15.5%;
+   margin-bottom: 17%;
+  margin-right: 7%;
+}
+
+.mic{
+   height: 5px;
+  width: 5px;
+  background-color: #556;
+  border-radius: 50%;
+   margin-top: 16%;
+  margin-left: 27%;
+}
